@@ -1,0 +1,22 @@
+.javascript-A {
+  display: none;
+}
+
+.operator-A {
+  display: none;
+}
+
+.variable-A {
+  display: none;
+}
+
+.function-A {
+  display: none;
+}
+
+.layout {
+  border: 5px solid black;
+  float: left;
+  width: 300px;
+  height: 400px;
+}
