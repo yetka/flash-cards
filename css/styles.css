@@ -1,22 +1,15 @@
-.javascript-A {
+.A {
   display: none;
 }
 
-.operator-A {
-  display: none;
-}
 
-.variable-A {
-  display: none;
-}
-
-.function-A {
-  display: none;
-}
-
-.layout {
+.javascript, .operator, .variable, .function {
   border: 5px solid black;
+  margin: 5px;
+  padding: 5px;
+  background-color: lightgray;
   float: left;
   width: 300px;
   height: 400px;
+  text-align: center;
 }

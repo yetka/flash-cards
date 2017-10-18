@@ -1,42 +1,26 @@
 $(document).ready(function() {
-  $(".javascript-Q").click(function() {
-    $(".javascript-Q").hide();
-    $(".javascript-A").show();
+
+  $(".javascript").click(function() {
+    $(".javascript .A").toggle();
+    $(".javascript .Q").toggle();
   });
 
-  $(".javascript-A").click(function() {
-    $(".javascript-A").hide();
-    $(".javascript-Q").show();
+  $(".operator").click(function() {
+    $(".operator .Q").toggle();
+    $(".operator .A").toggle();
   });
 
-  $(".operator-Q").click(function() {
-    $(".operator-Q").hide();
-    $(".operator-A").show();
+
+  $(".variable").click(function() {
+    $(".variable .Q").toggle();
+    $(".variable .A").toggle();
   });
 
-  $(".operator-A").click(function() {
-    $(".operator-A").hide();
-    $(".operator-Q").show();
+
+  $(".function").click(function() {
+    $(".function .Q").toggle();
+    $(".function .A").toggle();
   });
 
-  $(".variable-Q").click(function() {
-    $(".variable-Q").hide();
-    $(".variable-A").show();
-  });
-
-  $(".variable-A").click(function() {
-    $(".variable-A").hide();
-    $(".variable-Q").show();
-  });
-
-  $(".function-Q").click(function() {
-    $(".function-Q").hide();
-    $(".function-A").show();
-  });
-
-  $(".function-A").click(function() {
-    $(".function-A").hide();
-    $(".function-Q").show();
-  });
 
 });
